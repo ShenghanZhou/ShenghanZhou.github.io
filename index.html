@@ -53,7 +53,20 @@
             height: auto;
             border-radius: 8px;
         }
-
+        main {
+            padding: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h1, h2 {
+            color: #444;
+        }
+        ul {
+            list-style-type: square;
+        }
         footer {
             text-align: center;
             padding: 20px;
@@ -71,24 +84,70 @@
         margin-left: 15vh;
         margin-right: 15vh;
     }
-    .image-row {
-        display: flex;
-        justify-content: center; 
-        gap: 10px; 
+    .skills, .contacts {
+            margin: 1em 0;
     }
-    .image-row figure {
-        text-align: center; 
-    }
-    .image-row img {
-        width: 250px; 
-        height: auto;
+    .skills ul, .contacts ul {
+            list-style: none;
+            padding: 0;
     }
     </style>
 </head>
 <body>
     <header>
         <h1>Shenghan Zhou</h1>
+        
     </header>
+    <main>
+        <section>
+            <h2>Education</h2>
+            <p><strong>Chongqing University (CQU)</strong> <br>Bachelor of Engineering in Artificial Intelligence (Anticipated June 2025) <br> GPA: 92/100, 3.848/4.0 | Major Ranking: 1/30 | Grade Ranking: 3/253</p>
+            <p><strong>UC Berkeley</strong> <br> Berkeley Global Access Program (Aug. 2024 - Present)</p>
+            <p><strong>UC Irvine</strong> <br> UCInspire Program (Jun. 2024 - Aug. 2024) <br> GPA: 4.0/4.0</p>
+        </section>
+        <section>
+            <h2>Publications</h2>
+            <ul>
+                <li>Zhou, S. (2024). <em>Accelerating Style Transfer: Enhancing Efficiency of Diffusion-based Models with Advanced Sampling Methods</em>. Proceedings of the 6th International Conference on Computer Science and Intelligent Communication (CSIC 2024).</li>
+                <li>Sun, S., Araujo, G., Xu, J., Zhou, S., et al. (2024). <em>CoMA: Compositional Human Motion Generation with Multi-modal Agents</em>. Under submission to a Computer Vision conference.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Research</h2>
+            <p><strong>UCInspire - Human Motion Generation (Jun. 2024 - Nov. 2024)</strong><br>Developed CoMA framework for complex motion generation. Proposed SPAM generative model, utilized Video Language Models for motion corrections, and introduced Motion Alignment Score for evaluation.</p>
+            <p><strong>Accelerating Style Transfer (Jul. 2024 - Aug. 2024)</strong><br>Integrated advanced sampling techniques, achieving 5x faster generation with the StyleID framework while maintaining high-quality images.</p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Deep Learning and Neural Networks: Theory and Applications (May 2024 - Jul. 2024)</strong><br>Analyzed neural network optimizers, replicated Scalable Diffusion Models, and improved CycleGAN's artistic style replication.</li>
+                <li><strong>YOLOv3-based Object Detection in Complex Weather Conditions (Oct. 2023 - Nov. 2023)</strong><br>Implemented YOLOv3 with attention mechanism to enhance detection in foggy conditions.</li>
+                <li><strong>Eigen Selection in Spectral Clustering (Oct. 2023 - Nov. 2023)</strong><br>Improved clustering performance using feature selection in spectral clustering on high-dimensional datasets.</li>
+                <li><strong>AI Face Recognition System (Jun. 2023 - Jul. 2023)</strong><br>Developed a CNN-based face recognition system integrated with Flask for real-time login capabilities.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Honors & Awards</h2>
+            <ul>
+                <li>Honorable Mention in Mathematical Contest in Modeling (Feb. 2024)</li>
+                <li>First Prize in CUMCM (Nov. 2023)</li>
+                <li>Second Class CQU Scholarship for Outstanding Students (May 2023)</li>
+                <li>National Scholarship (Dec. 2022)</li>
+                <li>First Class CQU Scholarship for Outstanding Students (Nov. 2022)</li>
+                <li>Outstanding Student Award by CQU (Nov. 2022)</li>
+                <li>First Prize in CQU Mathematics Contest (Jul. 2022)</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Extracurricular Activity</h2>
+            <p><strong>CQU Youth League Committee Student Development Center (Oct. 2021 - Jun. 2022)</strong><br>Contributed to student welfare investigations and publicity campaigns, earning the Excellent Member award.</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <p><strong>Programming Languages:</strong> C++ (2 years), C (3 years), Python (2 years), MATLAB (2 years), Lingo (1 year)</p>
+            <p><strong>Languages:</strong> Mandarin (Native), English (Advanced)</p>
+        </section>
+    </main>
 
 </body>
 </html>
